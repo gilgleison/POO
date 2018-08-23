@@ -34,4 +34,5 @@
         as duvidas que eu tinha nessa parte do conteúdo, acabei resolvendo enquanto fazia o trabalho.
         
 - Quanto tempo levou pra fazer a atividade
+
         não sei ao certo, pois além do tempo de implementação do código, fiquei um tempo estudando c++ no site passado pelo professor. mas eu diria que umas 6h ao todo.
