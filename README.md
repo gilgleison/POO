@@ -36,3 +36,47 @@
 - Quanto tempo levou pra fazer a atividade
 
         não sei ao certo, pois além do tempo de implementação do código, fiquei um tempo estudando c++ no site passado pelo professor. mas eu diria que umas 6h ao todo.
+
+
+
+        
+# 02 - Topic
+
+
+- O que você fez
+        
+
+         Foram usadas duas structs, Topic, e Passageiro, onde Topic faz o uso de um vetor de passageiros para gerenciar as poltronas, na main o usuário escolhe a função que deseja usar e passa os dados nescessarios.
+
+        as funções são:
+
+        init, onde a topic é iniciada, passando a quantidade maxima de poltronas e a quantidade de poltronas preferenciais.
+
+        a função booleana in, onde o usuário passa o nome e idade do passageiro que irá sentar na poltrona, e são feitas checagens para saber em qual poltrona o passageiro irá sentar.
+
+        a função booleana out, onde é passado o nome do passageiro, e ele será deletado do meu vetor.
+
+        a função show, onde é mostrado as status da topic, passageiros que já estão sentados, lugares vazios e etc.
+
+        a função help, onde são mostradas a opções de funções disponiveis ao usuário, e os dados nescessários para ultilizalas, e a função end, que encerra o nosso programa.
+      
+        
+- Com quem e como você fez
+
+        Sozinho, usando o código do cinema como referência.
+  
+- O que aprendeu e sabe fazer
+
+       Aprendi bastante coisa sobre ponteiros, algumas coisas sobre a função vector, construtor e destrutor.
+        
+- O que tem dificuldade ainda
+
+        Aprendi como usa, mas ainda não sei bem quando usar stringstream.
+        
+- Quanto tempo levou pra fazer a atividade
+
+        em torno de 10h ao todo, até entender o código feito pelo professor e criar o meu.
+
+
+
+        
