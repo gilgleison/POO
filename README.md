@@ -78,5 +78,32 @@
         em torno de 10h ao todo, até entender o código feito pelo professor e criar o meu.
 
 
+# 03 - Contato
 
+
+- O que você fez
+        
+        
+        fiz as funções init(inicializar contato), add(adicionar novo numero ao contato), rm(remover numero do contato), help(opções disponiveis ao usuário), show(mostra o contatos e todos os numeros). 
+        
+        foram usadas 3 structs, Contato (contém os dados do contato, label e numero), Agenda (contém o nome do contato, e funções para implementação das funcionalidades), Control (contém as funções shell e exec, onde umas faz toda a parte de interação com o usuário e a outra trata de executar as funcionalides). 
+        
+        
+        
+- Com quem e como você fez
+
+        Sozinho, ultilizando o conhecimento adquirido com as outras praticas, e alguns conceitos passados em aula.
+  
+- O que aprendeu e sabe fazer
+
+       Aprendi como fazer um melhor uso da função vector e algumas utilidades, aprimorei os conhecimentos sobre ponteiros e algumas utilidades da biblioteca sstream. 
+        
+- O que tem dificuldade ainda
+
+
+        não consegui implementar a função Update, onde os dados do contato seria passado em forma de bloco, e atualizado;
+        
+- Quanto tempo levou pra fazer a atividade
+
+        6h há 7h, já que tinha aprendido bastante coisa com as práticas passadas e reutilizei boa parte do conhecimento já adquirido.
         
