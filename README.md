@@ -110,4 +110,4 @@
 - Atualização
         
 
-        fiz uma alteração no validate, onde agora ele é static, e fiz o update, pois não tinha conseguido fazer anteriormente. 
+        fiz uma alteração no validate, onde agora ele é static, e fiz o update, pois não tinha conseguido fazer anteriormente, também alterei o para receber os dados em linha, alterei a struct contato para class contato. 
