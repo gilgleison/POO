@@ -106,4 +106,8 @@
 - Quanto tempo levou pra fazer a atividade
 
         6h há 7h, já que tinha aprendido bastante coisa com as práticas passadas e reutilizei boa parte do conhecimento já adquirido.
+
+- Atualização
         
+
+        fiz uma alteração no validate, onde agora ele é static, e fiz o update, pois não tinha conseguido fazer anteriormente. 
