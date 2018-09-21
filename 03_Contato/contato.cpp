@@ -4,10 +4,12 @@
 using namespace std;
 
 
-struct Contato{
+class Contato{
 
     string nome;
     string num;
+
+    public:
 
     Contato(string nome = "vazio",string num = "-"){
         this->nome = nome;
@@ -19,32 +21,8 @@ struct Contato{
         ss <<this->nome << ":"<< this->num;
         return ss.str();
     }
-};  
 
-struct Agenda{
-    vector<Contato*> contato;
-    string nome;
-
-    Agenda(string nome="vazio"){
-        this->nome = nome;        
-    }
-
-    bool add(string nome, string num){
-        if(validate(num)){
-            contato.push_back(new Contato(nome,num));
-            return true;
-        }
-        return false;
-    }
-    
-    bool rm(int posRm){
-        if(posRm>(int)contato.size())
-            return false;
-        contato.erase(contato.begin() + posRm);        
-        return true;
-    }
-
-    bool validate(string num){
+    static bool validate(string num){
         string comp = "0123456789().";
         int cont = 0;
         int abriu=0,fechou=0,contNum=0;
@@ -66,8 +44,32 @@ struct Agenda{
             return true;
         else return false;
     }
+};  
 
-     string toString(){
+struct Agenda{
+    vector<Contato*> contato;
+    string nome;
+
+    Agenda(string nome="vazio"){
+        this->nome = nome;        
+    }
+
+    bool add(string nome, string num){
+        if(Contato::validate(num)){
+            contato.push_back(new Contato(nome,num));
+            return true;
+        }
+        return false;
+    }
+    
+    bool rm(int posRm){
+        if(posRm>(int)contato.size())
+            return false;
+        contato.erase(contato.begin() + posRm);        
+        return true;
+    }
+
+    string toString(){
         stringstream ss;
         ss << nome << "=> ";
         for(int i=0; i < (int) contato.size();i++){
@@ -78,17 +80,38 @@ struct Agenda{
         return ss.str();
     }
 
+    bool update(string line){
+        stringstream entrada(line);
+        string nome;
+        string num;
+        string atualiza;
+        while(entrada>>atualiza){
+            stringstream ss;                    
+            for(int i=0;i < (int)atualiza.size();i++ ) if(atualiza[i] == ':') atualiza[i] = ' ';
+            ss << atualiza; 
+            ss >> nome;
+            ss >> num;
+            if(add(nome,num));                    
+        }
+
+        return true;
+    }
+
 };
 
 struct Control{
     
     Agenda agenda;
 
-    string shell(string op){
+    string shell(string line){
+        stringstream entrada(line);
         stringstream saida;
+        string op;
+        entrada >> op;
+
         if(op == "init"){
             string nome;
-            cin>>nome;               
+            entrada>>nome;               
             agenda = Agenda(nome);
             saida << "ok";
         }
@@ -96,7 +119,8 @@ struct Control{
         else if(op == "add"){
             string nome;
             string num;
-            cin>>nome>>num;
+            entrada>>nome;
+            entrada>>num;
             if(agenda.add(nome,num))
                 saida <<"ok";
             else
@@ -104,25 +128,32 @@ struct Control{
             }
         else if(op == "rm"){
                 int posRm;
-                cin>>posRm;
+                entrada>>posRm;
                 if(agenda.rm(posRm))
                     saida <<"ok";
                 else
                     saida <<"fail: indice incorreto";                 
                 }
         else if(op == "help")
-                saida << "init_nome;add_id_num;rm_indice;show;";
+                saida << "init_nome;add_id_num;rm_indice;show;update_nome_label:numero";
+        
+        else if(op == "update"){
+                string nome;
+                entrada>>nome;
+                agenda = Agenda(nome);
 
+                if(agenda.update(line)) saida<<"ok";
+            }
         return saida.str();
     }
 
     void exec(){
-        string op;
+        string line;
         while(true){
-            cin >> op;
-            if(op == "end")
+            getline(cin,line);
+            if(line == "end")
                 break;
-            cout << shell(op)<<endl;
+            cout << shell(line)<<endl;
         }  
     }
 
