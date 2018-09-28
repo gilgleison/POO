@@ -111,3 +111,33 @@
         
 
         fiz uma alteração no validate, onde agora ele é static, e fiz o update, pois não tinha conseguido fazer anteriormente, também alterei o para receber os dados em linha, alterei a struct contato para class contato. 
+
+
+
+# 04 - Agiota
+
+
+- O que você fez
+        
+        
+        fiz as funções init(inicializar Agiota), addCli(adicionar novo cliente), matar(remover cliente e todas as transações feitas por ele), resumo(mostrar todos os clientes e o saldo do agiota), historico(mostra todas as transações feitas por todos os clientes), filtrar(mostra as transações feitar por um cliente especifico), emprestar(empresta dinheiro a um cliente), receber(recebe pagamento de um cliente);
+        
+        foram usadas 3 structs, Cliente (contém os dados do cliente, id e saldo), Agiota (contém o saldo do agiota e implementação das funcionalidades), Controller (contém as funções shell e exec, onde umas faz toda a parte de interação com o usuário e a outra trata de executar as funcionalides). 
+        
+        
+        
+- Com quem e como você fez
+
+        Sozinho, ultilizando o conhecimento adquirido com as outras praticas, e alguns conceitos passados em aula algumas vezes consultando a video aula do professor para tirar duvidas.
+  
+- O que aprendeu e sabe fazer
+
+       Aprendi a fazer um melhor uso da biblioteca sstream e fazer o uso de map, pelo menos a parte basica. 
+        
+- O que tem dificuldade ainda
+
+        tive dificuldade em trabalhar com a biblioteca sstream, mas com a pratica acabei melhorando o conhecimento. 
+        
+- Quanto tempo levou pra fazer a atividade
+
+        15h , tive que rever muitos conceitos e aprender coisas novas pra conseguir finalizar o projeto.
