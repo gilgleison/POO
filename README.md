@@ -141,3 +141,34 @@
 - Quanto tempo levou pra fazer a atividade
 
         15h , tive que rever muitos conceitos e aprender coisas novas pra conseguir finalizar o projeto.
+
+
+
+# 05 - RepositorioI
+
+
+- O que você fez
+        
+        
+        addAlu(adicionar novo aluno), rmAlu(remove um aluno passando a matricula), getAlu(pega os dados do aluno passando a matricula), showAlu(mostra todos os alunos),
+        addPro(adiociona novo professor), rmPro(remove um professor passando o nome), getPro(pega os dados do professor passando o nome), showPro(mostra todos os professores),
+        addDis(adiciona nova disciplina), rmDis(remove uma disciplina passando o codigo), getDis(pega os dados da disciplina passando o codigo), showDis(mostra todas as disciplinas),
+        
+        foram usadas 2 structs, Repositorio(contem as funções usadas pelas classes), Controller (contém as funções shell e exec, onde umas faz toda a parte de interação com o usuário e a outra trata de executar as funcionalides). e 3 class que são, Aluno, Professor e Disciplina.
+        
+        
+- Com quem e como você fez
+
+        Sozinho, ultilizando o conhecimento adquirido com as outras praticas, e os conceitos de repositorio e mapa passados pelo professor em sala de aula, as vezes consultando o código feito em aula pelo professor, com o intuito de tirar dúvidas.
+  
+- O que aprendeu e sabe fazer
+
+       Aprofundei um pouco os conhecimentos sobre mapa, e aprendi a fazer o uso de repositorio. 
+        
+- O que tem dificuldade ainda
+
+        Demorei um pouco a entender o conceito de repositorio, porém, com a pratica consegui entender. 
+        
+- Quanto tempo levou pra fazer a atividade
+
+        10h , a maioria do tempo foi usada estudando respositorio, para entender como funcionava.
