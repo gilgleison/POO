@@ -172,3 +172,76 @@
 - Quanto tempo levou pra fazer a atividade
 
         10h , a maioria do tempo foi usada estudando respositorio, para entender como funcionava.
+
+
+
+# 06 - Anotações
+
+
+- O que você fez
+        
+        
+        addUser(adicionar novo usuário, passando nome e senha), login (passando nome e senha), logout (desloga do sistema), changePass(troca a senha, passando senha antiga e a nova senha), addNote(adiciona uma nova nota ao usuário logado, passando o titulo da nota), rmNote(remove uma nota pelo titulo), showNotes(mostra todas as notas do usuário logado), showUsers(mostra todos os usuários do sistema).
+
+        foram usadas 5 classes, GerLogin(contém a lógica necessária para gerenciar o usuário logado), Controller (contém as funções shell e exec, onde umas faz toda a parte de interação com o usuário e a outra trata de executar as funcionalides), Sistema(contém as funcionalidades do sistemas, banco de usuários e etc), Notas(notas dos usuários), User(Dados dos usuários);
+        
+        
+- Com quem e como você fez
+
+        Sozinho, ultilizando o conhecimento adquirido com as outras praticas, as vezes consultando o código feito em aula pelo professor, com o intuito de tirar dúvidas.
+  
+- O que aprendeu e sabe fazer
+
+       Aprendi a fazer o uso de gerenciador de login
+        
+- O que tem dificuldade ainda
+
+        só tive dificuldade até entender que tudo era feita em cima do usuário corrente.
+        
+- Quanto tempo levou pra fazer a atividade
+
+        7h , a maoria do tempo estudando o código feito pelo professor pra entender o que tinha que ser feito.
+
+
+
+# 07 - Salario
+
+
+- O que você fez
+        
+        
+        addProf(Adiciona novo professor, passando nome e classe), addSta(adiciona novo STA passando nome e nivel), addTer(adiciona novo terceirizado, passando nome, horas trabalhadas e se é insalubre ou não), rm(remove um funcionarios passando o  nome), show(mostra todos os dados do funcionarios, passando o nome), addDiaria(adiciona diaria a um funcionarios, passando o nome), setBonus(adiciona bonus a todos os funcionarios, cada funcionarios recebrá o valor dividido pela quantidade de funcionários).
+
+        foi usado um unico repositorio de funcionarios, onde as classes Professor, Terceirizado e STA, são classes que herdaram a classe funcionario.
+        a classe controller, contém as funções shell e exec, onde umas faz toda a parte de interação com o usuário e a outra trata de executar as funcionalides.
+        
+        
+- Com quem e como você fez
+
+        Sozinho, ultilizando o conhecimento adquirido com as outras praticas, e consultando as aulas e os codigos de herança feitos pelo professor, para tirar duvidas.
+  
+- O que aprendeu e sabe fazer
+
+       Aprendi a fazer o uso de herança.
+        
+- O que tem dificuldade ainda
+
+        Tive um pouco de dificuldade para entender herança a fundo, tinha entendido o conceito, mas só fui compreender realmente ao fazer a prática.
+        
+- Quanto tempo levou pra fazer a atividade
+
+        2 dias devido ao fato de terem erros no código em relação ao conteúdo de herança e não tava sabendo resolver, mas quando compreendi, consegui terminar a prática
+
+
+# Banco
+
+        Não fiz pois ja tinha adquirido dominio do conteúdo fazendo as práticas anteorios a essa, ex: contatos. 
+
+# Tamagotchi
+
+        não fiz pois o conteúdo era o mesmo que foi ultilizado pra fazer as práticas de topic e carro, e ja tinha dominio sobre essa parte do conteúdo.
+
+# Agiota com Repositório
+
+        não fiz pois ja tinha adquirido conhecimento suficiente ao fazer a pratica do reposiorioI.
+
