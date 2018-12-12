@@ -1,0 +1,10 @@
+addContato maria
+addNum maria cc 00
+addNum maria xx 90
+addNum maria zc 10
+addContato chico
+addNum chico aa 00
+addNum chico bb 99
+addNum chico zz 11
+addContato carol
+addNum carol oi 55
