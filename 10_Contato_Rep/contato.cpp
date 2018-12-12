@@ -200,38 +200,6 @@ int main(){
 
     Control control;
     control.exec();
-
-    // Agenda agenda;
-    // string op;
-    // while(true){
-    //     cin >> op;
-    //     if(op == "init"){
-    //         string nome;
-    //         cin>>nome;
-    //         agenda = Agenda(nome);
-    //     }
-    //     else if(op == "show") cout<<agenda.toString()<<endl;
-    //     else if(op == "add"){
-    //         string nome;
-    //         string num;
-    //         cin>>nome>>num;
-    //         if(agenda.add(nome,num))
-    //             cout<<"ok"<<endl;
-    //         else
-    //             cout<<"fail: numero invalido"<<endl;             
-    //     }
-    //      else 
-    //         if(op == "rm"){
-    //             int posRm;
-    //             cin>>posRm;
-    //             if(agenda.rm(posRm))
-    //                 cout<<"ok"<<endl;
-    //             else
-    //                 cout<<"fail: indice incorreto"<<endl;                 
-    //         }
-
-
-    // }
     
     return 0;
 
