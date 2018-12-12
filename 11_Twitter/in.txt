@@ -1,0 +1,8 @@
+addUser j
+addUser k
+addUser l
+seguir j k
+seguir j l
+twittar l inidnweiondiw
+twittar k ifneinfien
+timeline j
