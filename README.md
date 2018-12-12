@@ -233,15 +233,170 @@
         2 dias devido ao fato de terem erros no código em relação ao conteúdo de herança e não tava sabendo resolver, mas quando compreendi, consegui terminar a prática
 
 
-# Banco
 
-        Não fiz pois ja tinha adquirido dominio do conteúdo fazendo as práticas anteorios a essa, ex: contatos. 
 
-# Tamagotchi
+# 08 - Matricula
 
-        não fiz pois o conteúdo era o mesmo que foi ultilizado pra fazer as práticas de topic e carro, e ja tinha dominio sobre essa parte do conteúdo.
 
-# Agiota com Repositório
+- O que você fez       
+        
+        addAlu(Adiciona novo aluno passando o nome), addDis(adiciona nova disciplina passando o id), show (Mostra todos os alunos cadastrados e todas as disilinas em que estão matriculados,mostra também todas as disciplina e todos o alunos matriculados nelas), mat(faz a matricula do aluno em uma disciplna), rmMat(desmatricula o aluno em uma disciplina), rmAlu(remove um aluno).  
 
-        não fiz pois ja tinha adquirido conhecimento suficiente ao fazer a pratica do reposiorioI.
+        ao fazer a matricula era feita a associação de aluno e disciplinas, e ao remover uma matricula ou aluno, a associação era desfeita. foram usadas as classes aluno(onde continha os dados do aluno), Controller(todo o gerencimaneto do sistemas e interação com o usuário), Disciplinas(continha os dados da disciplina), foram usados dois repositorios, um para as disciplinas e um para os alunos; 
 
+        
+- Com quem e como você fez
+
+        Sozinho, ultilizando o conhecimento adquirido com as outras praticas.
+  
+- O que aprendeu e sabe fazer
+
+       Aprendi a fazer a assoiação dos dados, no caso desse código, entre disciplinas e alunos.
+        
+- O que tem dificuldade ainda
+
+        o código deu um pouco de trabalho pelo fato de sempre ter que manter atualizados os dados associados.
+        
+- Quanto tempo levou pra fazer a atividade
+
+        não sei ao ceto, mas estimo umas 4h.
+
+
+# 09 - Pet
+
+
+- O que você fez       
+        
+        nesse código foram usadas apenas as classes tamagotchi e controller, tinhamos as opções, play, sleep, clean , eat e show. onde todas as funções com excessão da show, alteravam os atributos do tamagotchi, que eram, Energy, Hungry, Clean, Diamonds, Age. 
+
+        
+- Com quem e como você fez
+
+        Sozinho, ultilizando o conhecimento adquirido com as outras praticas.
+  
+- O que aprendeu e sabe fazer
+
+       aprimorei os conhecimentos já obtidos.
+        
+- O que tem dificuldade ainda
+
+        não tive dificuldades.
+
+- Quanto tempo levou pra fazer a atividade
+
+        acho que em torno de 1h.
+
+
+# 10 - Contato_Rep(Contato com Repositório)
+
+
+- O que você fez       
+        
+        alterei o código de modo que ao invés de ter apenas um contato com varios numeros, agora temos varios contatos, onde cada contato tem varios numeros.
+        show(mostra todos os contatos e todos o numeros de todos os contatos),addNum(adiciona um numero a um contato já existente), rmNum(remove um numero de um contato desejado, passando o nome do contato e o indice que deseja remover), addContato(adiciona um contato a agenda passando o nome), rmContato(remove um contato da agenda e todos os seu numeros). 
+
+        foram usadas as classes Control(todo o gerencimaneto do sistemas e interação com o usuário), Agenda(onde na verdade é o contato e guarda todos os numeros apenas esqueci de renomear quando fui modificar apartir do contato, possui um repositorio de contatos que é o numeros que cada contato possui), Contato().
+
+        foram usados dois repositorios, um de Agenda, que é onde é armazenados os contatos, e um repositorio de contatos dentro da classe agenda onde são armazenados os numeros, dessa forma cada contato tem um repositorio de numeros. 
+
+        
+- Com quem e como você fez
+
+        Sozinho, ultilizando o conhecimento adquirido com as outras praticas.
+  
+- O que aprendeu e sabe fazer
+
+       aprimorei os conhecimentos já obtidos.
+        
+- O que tem dificuldade ainda
+
+        Tive um pouco de dificuldade pelo fato de ter um repositorio de uma classe que continha outro repositorio.
+
+- Quanto tempo levou pra fazer a atividade
+
+        4h até conseguir finalizar o código.        
+
+
+
+# 11 - Twitter
+
+
+- O que você fez       
+        
+        addUser(adiciona novo usuário passando o nome), show(mostra todos os usuarios e todos o seguidores e seguidos), seguir(segue um usuaio, passando o usuario que que vai seguilo, e o que vai ser seguido), twittar(cria um twitte passando o nome de quem esta postando e a mensagem, e adiciona a timeline dos seguidores e myTweets de quem está postando), showT(mostra todos os tweets), myTweets(mostra todos tweets que o usuario postou, passando o nome), timeline(mostra todos os tweets da timeline de um usuario, que foi passado o nome), like(curte um tweet pelo id, desde que esteja na linha do tempo do usuario que foi passado), unread(mostra todos os tweets da timeline do usuário que ainda não foram lidos).
+
+        foram usadas as classes, tweet(fica a msg do tweet, o id, o nome de quem postou e o nome de quem deu like), User(nome do usuario, vetor de seguidores, vetor de seguidos, vetor de tweets que postou, e timeline que é uma lista de tweets, tanto postados pelo usuário quanto pelos seguidos), Gerador(gerencia os tweets). controller(todo o gerencimaneto do sistemas e interação com o usuário). 
+
+        foram usados dois repositórios, um para armazenar os tweetes, e um para os usuários.
+
+        
+- Com quem e como você fez
+
+        Sozinho, ultilizando o conhecimento adquirido com as outras praticas.
+  
+- O que aprendeu e sabe fazer
+
+       aprimorei os conhecimentos já obtidos.
+        
+- O que tem dificuldade ainda
+
+        por ser um código um pouco complexo, demorei um pouco pra entender tudo que deveria ser feito.
+
+- Quanto tempo levou pra fazer a atividade
+
+        6h ao todo.
+
+
+# Extra - Conta Bancária
+
+
+- O que você fez       
+        
+        init(inicializa a conta passando o numero), deposito(Adiciona um valor ao saldo), saque(retira um valor do saldo), show(mostra os dados da conta);
+
+        foram usadas as classes, conta(dados da conta), caixa(usado para fazer operações na conta), controller(todo o gerencimaneto do sistemas e interação com o usuário).
+
+        o código está imcompleto porque não entendi alguma funcionalidades que eram pedidas.
+        
+
+        
+- Com quem e como você fez
+
+        Sozinho, ultilizando o conhecimento adquirido com as outras praticas.
+  
+- O que aprendeu e sabe fazer
+
+       aprimorei os conhecimentos já obtidos.
+        
+- O que tem dificuldade ainda
+
+        Tive dificuldade em entender algumas funcionalidades que foram pedidas.
+
+- Quanto tempo levou pra fazer a atividade
+
+        umas 3h.
+
+
+# Prova - Parte 01
+
+
+- O que você fez       
+        
+        modifiquei o código para que fosse possivel adicionar um contato aos favoritos, e modifiquei os prints para que diferenciasse os favoritos dos não favoritos, também alterei a função remover contato para que ao remover o mesmo fosse removido também da lista de favoritos, também foi modificada a funcionalidade de adicionar contatos, para que caso o contato ja existesse, apenas fossem adicionados numeros a ele.
+
+        
+- Com quem e como você fez
+
+        Sozinho, ultilizando o conhecimento adquirido com as outras praticas.
+  
+- O que aprendeu e sabe fazer
+
+       aprimorei os conhecimentos já obtidos.
+        
+- O que tem dificuldade ainda
+
+        tive difilculdades para modificar pois já que o código não era meu, tive que entender tudo que ja estava implementado, para poder modificar.
+
+- Quanto tempo levou pra fazer a atividade
+
+        partindo da parte de entender o código até modificar o que era pedido, em torno de 3h.
